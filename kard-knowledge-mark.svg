@@ -1,42 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
-<title>KARD Lab</title>
-<desc>Three overlapping cards representing structured knowledge, principled reasoning, and discovery.</desc>
-<g transform="translate(0 10)">
-<!-- Generous margins keep the rotated cards inside the square canvas. -->
-<g transform="rotate(-12 33 70)">
-<rect x="12" y="34" width="42" height="72" rx="6.5" fill="#FFFCF4" stroke="#B68B2D" stroke-width="2.4"/>
-<!-- Structured knowledge: a readable network and open book. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" fill="none">
+<title>KARD Lab</title><desc>Three cards in an 84-degree fan: knowledge, reasoning, discovery.</desc>
+<g transform="translate(4 3) rotate(-42 80 80)">
+<!-- A shared pivot and equal card dimensions keep the fan coherent. -->
+<g transform="rotate(-42 80 108)">
+<rect x="59" y="26" width="42" height="72" rx="6.5" fill="#FFFCF4" stroke="#B68B2D" stroke-width="3.3"/>
 <g stroke="#292929" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-<path d="m23 48 19 4-9 14-13-4 3-14Zm0 0 10 18m9-14-22 10m13 4 12 10"/>
+<path d="m69 39 11 11 10-11M69 39v20l21-20v20L69 39Zm0 20h21M80 50v9"/>
 </g>
-<g stroke="#292929" stroke-width="1.3"><circle cx="23" cy="48" r="3" fill="#292929"/><circle cx="42" cy="52" r="3" fill="#F1BE48"/><circle cx="20" cy="62" r="3" fill="#F1BE48"/><circle cx="33" cy="66" r="3.8" fill="#C8102E"/><circle cx="45" cy="76" r="2.7" fill="#292929"/></g>
-<path d="M20 81c5-2 9-1 13 2 4-3 8-4 13-2v12c-5-2-9-1-13 2-4-3-8-4-13-2V81Zm13 2v12" stroke="#C8102E" stroke-width="1.8" stroke-linejoin="round" fill="#FFFCF4"/>
+<g stroke="#292929" stroke-width="1.3"><circle cx="69" cy="39" r="2.9" fill="#292929"/><circle cx="90" cy="39" r="2.9" fill="#F1BE48"/><circle cx="80" cy="50" r="3.4" fill="#C8102E"/><circle cx="69" cy="59" r="2.9" fill="#F1BE48"/><circle cx="90" cy="59" r="2.9" fill="#292929"/></g>
+
 </g>
-<!-- Reasoning: two premises converge and branch into consequences. -->
-<g transform="translate(8 0)">
-<rect x="48" y="21" width="42" height="72" rx="6.5" fill="#FFFFFF" stroke="#292929" stroke-width="2.4"/>
-<g stroke="#292929" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
-<path d="m58 36 10 13 10-13M68 58v11m0 0-10 12m10-12 10 12"/>
-<path d="m65 64 3 5 3-5"/>
+<g>
+<rect x="59" y="26" width="42" height="72" rx="6.5" fill="#FFFFFF" stroke="#292929" stroke-width="3.3"/>
+<!-- Symmetric premises meet a central inference and yield two outcomes. -->
+<g stroke="#292929" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="m71 37 9 11 9-11M80 53v4m0 0-8 5m8-5 8 5"/><path d="m77.5 54 2.5 3 2.5-3"/></g>
+<circle cx="71" cy="37" r="3.2" fill="#F1BE48" stroke="#292929" stroke-width="1.5"/><circle cx="89" cy="37" r="3.2" fill="#FFFFFF" stroke="#292929" stroke-width="1.5"/>
+<path d="m80 44 6 6-6 6-6-6 6-6Z" fill="#C8102E"/><circle cx="80" cy="50" r="2" fill="#FFFFFF"/>
+<circle cx="72" cy="62" r="3.2" fill="#FFFFFF" stroke="#292929" stroke-width="1.5"/><circle cx="88" cy="62" r="3.2" fill="#F1BE48" stroke="#292929" stroke-width="1.5"/>
 </g>
-<circle cx="58" cy="36" r="3.5" fill="#F1BE48" stroke="#292929" stroke-width="1.6"/>
-<circle cx="78" cy="36" r="3.5" fill="#FFFFFF" stroke="#292929" stroke-width="1.6"/>
-<path d="m68 46 7 7-7 7-7-7 7-7Z" fill="#C8102E"/>
-<path d="m65 53 2 2 4-4" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="58" cy="81" r="3.5" fill="#FFFFFF" stroke="#292929" stroke-width="1.6"/>
-<circle cx="78" cy="81" r="3.5" fill="#F1BE48" stroke="#292929" stroke-width="1.6"/>
+<g transform="rotate(42 80 108)">
+<rect x="59" y="26" width="42" height="72" rx="6.5" fill="#FFFFFF" stroke="#C8102E" stroke-width="3.3"/>
+<!-- Insight rises along the common axis of two abstraction rings. -->
+<path d="M80 80V45m-5 6 5-8 5 8" stroke="#C8102E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="80" cy="60" rx="11" ry="4" stroke="#B68B2D" stroke-width="2"/><path d="M69 67c0 2.2 4.9 4 11 4s11-1.8 11-4" stroke="#B68B2D" stroke-width="2" stroke-linecap="round"/>
+<g stroke="#B68B2D" stroke-width="1.15" stroke-linejoin="round"><path d="m68 87 12-4 12 4-12 4-12-4Zm6-2 12 4m-12 0 12-4"/></g>
+<circle cx="68" cy="87" r="2.3" fill="#F1BE48" stroke="#292929" stroke-width="1"/><circle cx="80" cy="91" r="2.3" fill="#C8102E"/><circle cx="92" cy="87" r="2.3" fill="#292929"/>
+<path d="m91 37 1 2.5 2.5 1-2.5 1-1 2.5-1-2.5-2.5-1 2.5-1Z" fill="#F1BE48"/>
 </g>
-<!-- Discovery: rising insight through evidence rings, grounded in data. -->
-<g transform="translate(17 0) rotate(12 103 70)">
-<rect x="82" y="34" width="42" height="72" rx="6.5" fill="#FFFFFF" stroke="#C8102E" stroke-width="2.4"/>
-<path d="M91 93h24m-21-7 18 11m-20-9 22 7" stroke="#B68B2D" stroke-width="1.2" stroke-linecap="round"/>
-<path d="M103 84V49m-5 6 5-8 5 8" stroke="#C8102E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-<ellipse cx="103" cy="65" rx="11" ry="4" stroke="#B68B2D" stroke-width="2"/>
-<path d="M92 71c0 2.2 4.9 4 11 4s11-1.8 11-4" stroke="#B68B2D" stroke-width="2" stroke-linecap="round"/>
-<circle cx="93" cy="88" r="2.6" fill="#F1BE48" stroke="#292929" stroke-width="1"/>
-<circle cx="103" cy="92" r="2.6" fill="#C8102E"/>
-<circle cx="113" cy="88" r="2.6" fill="#292929"/>
-<path d="m115 45 .9 2.6 2.6.9-2.6.9-.9 2.6-.9-2.6-2.6-.9 2.6-.9Z" fill="#F1BE48"/>
-</g>
-</g>
-</svg>
+</g></svg>
