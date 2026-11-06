@@ -1,24 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none">
-<title>KARD Lab — knowledge, reasoning and discovery</title>
-<desc>Three overlapping cards: a knowledge graph, a branching reasoning path, and a discovery lens with a spark.</desc>
-<!-- Knowledge card -->
-<g transform="rotate(-15 27 52)">
-<rect x="6" y="23" width="42" height="60" rx="7" fill="#FFFCF4" stroke="#A77C21" stroke-width="2.4"/>
-<path d="m17 47 10-12 10 12-10 12-10-12Zm0 0h20" stroke="#A77C21" stroke-width="2" stroke-linejoin="round"/>
-<g fill="#F1BE48" stroke="#A77C21" stroke-width="1.5"><circle cx="27" cy="35" r="3.3"/><circle cx="17" cy="47" r="3.3"/><circle cx="37" cy="47" r="3.3"/><circle cx="27" cy="59" r="3.3"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+<title>KARD Lab</title>
+<desc>Three overlapping cards representing structured knowledge, principled reasoning, and discovery.</desc>
+<g transform="translate(0 10)">
+<!-- Generous margins keep the rotated cards inside the square canvas. -->
+<g transform="rotate(-12 33 70)">
+<rect x="12" y="34" width="42" height="72" rx="6.5" fill="#FFFCF4" stroke="#B68B2D" stroke-width="2.4"/>
+<!-- Structured knowledge: a readable network and open book. -->
+<g stroke="#292929" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="m23 48 19 4-9 14-13-4 3-14Zm0 0 10 18m9-14-22 10m13 4 12 10"/>
 </g>
-<!-- Reasoning card -->
-<g>
-<rect x="28" y="9" width="42" height="60" rx="7" fill="#FFFFFF" stroke="#292929" stroke-width="2.4"/>
-<path d="M39 24h11m-4-4 4 4-4 4M39 40h11m-4-4 4 4-4 4M56 24h3v16h-3M59 32h5" stroke="#292929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="36" cy="24" r="2.5" fill="#292929"/><circle cx="36" cy="40" r="2.5" fill="#292929"/>
-<path d="m45 53 3 3 6-7" stroke="#C8102E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<g stroke="#292929" stroke-width="1.3"><circle cx="23" cy="48" r="3" fill="#292929"/><circle cx="42" cy="52" r="3" fill="#F1BE48"/><circle cx="20" cy="62" r="3" fill="#F1BE48"/><circle cx="33" cy="66" r="3.8" fill="#C8102E"/><circle cx="45" cy="76" r="2.7" fill="#292929"/></g>
+<path d="M20 81c5-2 9-1 13 2 4-3 8-4 13-2v12c-5-2-9-1-13 2-4-3-8-4-13-2V81Zm13 2v12" stroke="#C8102E" stroke-width="1.8" stroke-linejoin="round" fill="#FFFCF4"/>
 </g>
-<!-- Discovery card -->
-<g transform="rotate(15 70 56)">
-<rect x="49" y="26" width="42" height="60" rx="7" fill="#FFFFFF" stroke="#C8102E" stroke-width="2.4"/>
-<circle cx="67" cy="53" r="9" stroke="#C8102E" stroke-width="2.4"/>
-<path d="m74 60 7 7" stroke="#C8102E" stroke-width="3.5" stroke-linecap="round"/>
-<path d="m67 46 1.8 4.2L73 52l-4.2 1.8L67 58l-1.8-4.2L61 52l4.2-1.8Z" fill="#F1BE48"/>
+<!-- Reasoning: two premises converge and branch into consequences. -->
+<g transform="translate(8 0)">
+<rect x="48" y="21" width="42" height="72" rx="6.5" fill="#FFFFFF" stroke="#292929" stroke-width="2.4"/>
+<g stroke="#292929" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+<path d="m58 36 10 13 10-13M68 58v11m0 0-10 12m10-12 10 12"/>
+<path d="m65 64 3 5 3-5"/>
+</g>
+<circle cx="58" cy="36" r="3.5" fill="#F1BE48" stroke="#292929" stroke-width="1.6"/>
+<circle cx="78" cy="36" r="3.5" fill="#FFFFFF" stroke="#292929" stroke-width="1.6"/>
+<path d="m68 46 7 7-7 7-7-7 7-7Z" fill="#C8102E"/>
+<path d="m65 53 2 2 4-4" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="58" cy="81" r="3.5" fill="#FFFFFF" stroke="#292929" stroke-width="1.6"/>
+<circle cx="78" cy="81" r="3.5" fill="#F1BE48" stroke="#292929" stroke-width="1.6"/>
+</g>
+<!-- Discovery: rising insight through evidence rings, grounded in data. -->
+<g transform="translate(17 0) rotate(12 103 70)">
+<rect x="82" y="34" width="42" height="72" rx="6.5" fill="#FFFFFF" stroke="#C8102E" stroke-width="2.4"/>
+<path d="M91 93h24m-21-7 18 11m-20-9 22 7" stroke="#B68B2D" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M103 84V49m-5 6 5-8 5 8" stroke="#C8102E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="103" cy="65" rx="11" ry="4" stroke="#B68B2D" stroke-width="2"/>
+<path d="M92 71c0 2.2 4.9 4 11 4s11-1.8 11-4" stroke="#B68B2D" stroke-width="2" stroke-linecap="round"/>
+<circle cx="93" cy="88" r="2.6" fill="#F1BE48" stroke="#292929" stroke-width="1"/>
+<circle cx="103" cy="92" r="2.6" fill="#C8102E"/>
+<circle cx="113" cy="88" r="2.6" fill="#292929"/>
+<path d="m115 45 .9 2.6 2.6.9-2.6.9-.9 2.6-.9-2.6-2.6-.9 2.6-.9Z" fill="#F1BE48"/>
+</g>
 </g>
 </svg>
