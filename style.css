@@ -50,4 +50,4 @@ body{min-height:0}main{min-height:0;padding-bottom:24px}.site-footer{margin-top:
 .lab-identity img{width:64px;height:64px;object-fit:contain}@media(max-width:620px){.lab-identity img{width:52px;height:52px}}
 
 /* Match the visible mark to the two-line lab title. */
-.lab-identity{align-items:center}.lab-identity img{width:76px;height:76px;margin-top:0}@media(max-width:620px){.lab-identity{align-items:center}.lab-identity img{width:68px;height:68px;margin-top:0}}
+.lab-identity{align-items:center}.lab-identity img{width:68px;height:68px;margin-top:0}@media(max-width:620px){.lab-identity{align-items:center}.lab-identity img{width:60px;height:60px;margin-top:0}}
