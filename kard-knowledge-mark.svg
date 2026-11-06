@@ -1,11 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-<title>KARD Lab knowledge structure</title>
-<g stroke="#242424" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-<path d="M32 9 12 31l20 24 20-24L32 9ZM12 31h40M32 9v46"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none">
+<title>KARD Lab — knowledge, reasoning and discovery</title>
+<desc>Three overlapping cards: a knowledge graph, a branching reasoning path, and a discovery lens with a spark.</desc>
+<!-- Knowledge card -->
+<g transform="rotate(-15 27 52)">
+<rect x="6" y="23" width="42" height="60" rx="7" fill="#FFFCF4" stroke="#A77C21" stroke-width="2.4"/>
+<path d="m17 47 10-12 10 12-10 12-10-12Zm0 0h20" stroke="#A77C21" stroke-width="2" stroke-linejoin="round"/>
+<g fill="#F1BE48" stroke="#A77C21" stroke-width="1.5"><circle cx="27" cy="35" r="3.3"/><circle cx="17" cy="47" r="3.3"/><circle cx="37" cy="47" r="3.3"/><circle cx="27" cy="59" r="3.3"/></g>
 </g>
-<circle cx="32" cy="9" r="5.5" fill="#C8102E"/>
-<circle cx="12" cy="31" r="5.5" fill="#F1BE48" stroke="#242424" stroke-width="1.5"/>
-<circle cx="52" cy="31" r="5.5" fill="#F1BE48" stroke="#242424" stroke-width="1.5"/>
-<circle cx="32" cy="55" r="5.5" fill="#242424"/>
-<circle cx="32" cy="31" r="6" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+<!-- Reasoning card -->
+<g>
+<rect x="28" y="9" width="42" height="60" rx="7" fill="#FFFFFF" stroke="#292929" stroke-width="2.4"/>
+<path d="M39 24h11m-4-4 4 4-4 4M39 40h11m-4-4 4 4-4 4M56 24h3v16h-3M59 32h5" stroke="#292929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="36" cy="24" r="2.5" fill="#292929"/><circle cx="36" cy="40" r="2.5" fill="#292929"/>
+<path d="m45 53 3 3 6-7" stroke="#C8102E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<!-- Discovery card -->
+<g transform="rotate(15 70 56)">
+<rect x="49" y="26" width="42" height="60" rx="7" fill="#FFFFFF" stroke="#C8102E" stroke-width="2.4"/>
+<circle cx="67" cy="53" r="9" stroke="#C8102E" stroke-width="2.4"/>
+<path d="m74 60 7 7" stroke="#C8102E" stroke-width="3.5" stroke-linecap="round"/>
+<path d="m67 46 1.8 4.2L73 52l-4.2 1.8L67 58l-1.8-4.2L61 52l4.2-1.8Z" fill="#F1BE48"/>
+</g>
 </svg>
