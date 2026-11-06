@@ -46,3 +46,8 @@ html{background:#e5e5e5}body{max-width:980px;margin:0 auto;padding:0 30px;min-he
 
 /* Let short academic pages end naturally after their content. */
 body{min-height:0}main{min-height:0;padding-bottom:24px}.site-footer{margin-top:0}.footer-bottom{padding:12px 0 15px}
+
+.lab-identity img{width:64px;height:64px;object-fit:contain}@media(max-width:620px){.lab-identity img{width:52px;height:52px}}
+
+/* Match the visible mark to the two-line lab title. */
+.lab-identity{align-items:center}.lab-identity img{width:76px;height:76px;margin-top:0}@media(max-width:620px){.lab-identity{align-items:center}.lab-identity img{width:68px;height:68px;margin-top:0}}
