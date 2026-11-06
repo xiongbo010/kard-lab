@@ -12,11 +12,14 @@
 </g>
 <g>
 <rect x="59" y="26" width="42" height="72" rx="6.5" fill="#FFFFFF" stroke="#292929" stroke-width="3.3"/>
-<!-- Symmetric premises meet a central inference and yield two outcomes. -->
-<g stroke="#292929" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="m71 37 9 11 9-11M80 53v4m0 0-8 5m8-5 8 5"/><path d="m77.5 54 2.5 3 2.5-3"/></g>
-<circle cx="71" cy="37" r="3.2" fill="#F1BE48" stroke="#292929" stroke-width="1.5"/><circle cx="89" cy="37" r="3.2" fill="#FFFFFF" stroke="#292929" stroke-width="1.5"/>
-<path d="m80 44 6 6-6 6-6-6 6-6Z" fill="#C8102E"/><circle cx="80" cy="50" r="2" fill="#FFFFFF"/>
-<circle cx="72" cy="62" r="3.2" fill="#FFFFFF" stroke="#292929" stroke-width="1.5"/><circle cx="88" cy="62" r="3.2" fill="#F1BE48" stroke="#292929" stroke-width="1.5"/>
+<!-- A proof tree: premises, an intermediate derivation, and a conclusion. -->
+<path d="m66 37 3-5 3 5Z" fill="#F1BE48" stroke="#292929" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="76" y="32" width="5" height="5" rx=".7" fill="#292929"/>
+<path d="m89 32 3 3-3 3-3-3Z" fill="#F1BE48" stroke="#292929" stroke-width="1.2"/>
+<path d="M64 41h19M65 53h29" stroke="#292929" stroke-width="2" stroke-linecap="round"/>
+<path d="m71 48 3-4 3 4Z" fill="#FFFFFF" stroke="#292929" stroke-width="1.3" stroke-linejoin="round"/>
+<path d="m89 43 3 3-3 3-3-3Z" fill="#FFFFFF" stroke="#292929" stroke-width="1.3"/>
+<rect x="74" y="58" width="12" height="8" rx="2" fill="#C8102E"/><path d="M77 62h6" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
 </g>
 <g transform="rotate(42 80 108)">
 <rect x="59" y="26" width="42" height="72" rx="6.5" fill="#FFFFFF" stroke="#C8102E" stroke-width="3.3"/>
