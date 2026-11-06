@@ -41,3 +41,5 @@ html{background:#e5e5e5}body{max-width:980px;margin:0 auto;padding:0 30px;min-he
 .publication .authors .pi-author{font-weight:700;color:#C8102E}
 
 .footer-bottom{display:flex;justify-content:space-between;align-items:center;gap:8px 20px;flex-wrap:wrap;padding:13px 0;background:transparent;border:0;color:#555;font-size:14px}.site-footer{border-top:1px solid #dedede}
+
+.publication-highlight{color:#C8102E;font-weight:700;font-size:15px;white-space:nowrap}.publication-meta{flex-wrap:wrap}
